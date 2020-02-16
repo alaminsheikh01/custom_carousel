@@ -1,0 +1,38 @@
+body{
+	margin:10px;
+	background-color: #4e4856;
+}
+
+.banner{
+	background-image: url("imeges/makka imam.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:2px solid white;
+}
+.slider{
+	background-color: rgba(1,1,1,.6);
+	color:white;
+	padding:78px;
+}
+.slider h1{
+	font-size: 35px;
+	margin-bottom:40px;
+}
+.slider p{
+	font-size: 21px;
+}
+.slider button{
+	    padding: 1px 15px;
+    background-color: darkgrey;
+       margin-left: 41%;
+    margin-top: 18px;
+}
+.custom-caro li {
+    width: 15px;
+    height: 14px;
+    border-radius: 50%;
+}
+.custom-caro{
+
+}

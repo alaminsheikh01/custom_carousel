@@ -1,0 +1,73 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.slider {
+    background-color: rgba(1,1,1,.6);
+    color: white;
+    padding: 51px 46px;
+}
+
+.slider p {
+    font-size: 15px;
+}
+.slider h1 {
+	color:#69e07894;
+	font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.slider button {
+    padding: 0px 11px;
+    margin-left: 0px;
+    margin-top: 14px;
+}
+.custom-caro li {
+    width: 9px;
+    height: 10px;
+}
+
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.slider h1 {
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+.slider p {
+    font-size: 18px;
+}
+.slider button {
+    margin-left: 37%;
+}
+.custom-caro li {
+    width: 12px;
+    height: 12px;
+}
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	.slider p {
+    font-size: 19px;
+}
+.slider h1 {
+    font-size: 28px;}
+    .slider button {
+    margin-left: 0%;
+}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.slider h1 {
+    font-size: 28px;
+
+}
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
